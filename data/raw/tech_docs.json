@@ -1,0 +1,72 @@
+[
+  {
+    "id": "doc_001",
+    "content": "Python is a high-level, general-purpose programming language. Its design philosophy emphasises code readability using significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.",
+    "source": "programming_languages.json",
+    "category": "programming",
+    "topic": "Python"
+  },
+  {
+    "id": "doc_002",
+    "content": "FastAPI is a modern, fast web framework for building APIs with Python based on standard Python type hints. The key features are: very high performance (on par with NodeJS and Go), fast to code, few bugs, intuitive, easy, short, robust, standards-based on OpenAPI and JSON Schema.",
+    "source": "programming_languages.json",
+    "category": "frameworks",
+    "topic": "FastAPI"
+  },
+  {
+    "id": "doc_003",
+    "content": "ChromaDB is an AI-native open-source vector database. It is designed to be very simple to get started with and get your app prototyped in less than a minute. ChromaDB automatically handles the embedding of your documents and queries, and provides a simple API for querying your data.",
+    "source": "programming_languages.json",
+    "category": "databases",
+    "topic": "ChromaDB"
+  },
+  {
+    "id": "doc_004",
+    "content": "FAISS (Facebook AI Similarity Search) is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that do not fit in RAM. It also contains supporting code for evaluation and parameter tuning.",
+    "source": "programming_languages.json",
+    "category": "machine_learning",
+    "topic": "FAISS"
+  },
+  {
+    "id": "doc_005",
+    "content": "Sentence Transformers is a Python framework for state-of-the-art sentence, text and image embeddings. The initial work is described in the paper 'Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks'. You can use this framework to compute sentence and text embeddings for more than 100 languages.",
+    "source": "programming_languages.json",
+    "category": "machine_learning",
+    "topic": "Sentence Transformers"
+  },
+  {
+    "id": "doc_006",
+    "content": "Pydantic is a Python library that provides data validation using Python type annotations. With Pydantic, type hints are used not just for static analysis but also to validate data at runtime. Pydantic is the most widely used data validation library for Python.",
+    "source": "programming_languages.json",
+    "category": "frameworks",
+    "topic": "Pydantic"
+  },
+  {
+    "id": "doc_007",
+    "content": "Uvicorn is an ASGI web server implementation for Python. Until recently Python has lacked a minimal low-level server/application interface for async frameworks. ASGI fills this gap, and Uvicorn currently supports HTTP/1.1 and WebSockets.",
+    "source": "programming_languages.json",
+    "category": "infrastructure",
+    "topic": "Uvicorn"
+  },
+  {
+    "id": "doc_008",
+    "content": "The cross-encoder architecture scores a pair of sentences simultaneously using a BERT-style model. Unlike bi-encoders, cross-encoders can model interactions between the query and document tokens. This leads to much better performance on ranking tasks at the cost of inference speed.",
+    "source": "programming_languages.json",
+    "category": "machine_learning",
+    "topic": "Cross-Encoder"
+  },
+  {
+    "id": "doc_009",
+    "content": "Cosine similarity is a metric used to measure how similar the embeddings for two pieces of text are. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. Cosine similarity ranges from -1 to 1, where 1 means exactly the same direction.",
+    "source": "programming_languages.json",
+    "category": "mathematics",
+    "topic": "Cosine Similarity"
+  },
+  {
+    "id": "doc_010",
+    "content": "Groq provides ultra-fast AI inference for open-source language models. Groq's Language Processing Unit (LPU) system delivers significantly faster inference speeds compared to GPU-based implementations. Groq supports models including Llama 3, Mixtral, and Gemma.",
+    "source": "programming_languages.json",
+    "category": "infrastructure",
+    "topic": "Groq"
+  }
+]
