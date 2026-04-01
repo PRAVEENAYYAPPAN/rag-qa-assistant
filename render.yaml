@@ -1,0 +1,57 @@
+services:
+  - type: web
+    name: rag-qa-assistant
+    runtime: python
+    plan: free
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: bash start.sh
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: LLM_PROVIDER
+        value: groq
+      - key: LLM_MODEL
+        value: llama3-8b-8192
+      - key: LLM_TEMPERATURE
+        value: "0.2"
+      - key: LLM_MAX_TOKENS
+        value: "1024"
+      - key: GROQ_API_KEY
+        sync: false          # Set manually in Render dashboard (secret)
+      - key: EMBEDDING_MODEL
+        value: sentence-transformers/all-MiniLM-L6-v2
+      - key: EMBEDDING_BATCH_SIZE
+        value: "32"
+      - key: CHUNK_SIZE
+        value: "512"
+      - key: CHUNK_OVERLAP
+        value: "64"
+      - key: CHUNK_STRATEGY
+        value: recursive
+      - key: TOP_K_RETRIEVE
+        value: "10"
+      - key: TOP_K_RERANK
+        value: "4"
+      - key: SIMILARITY_THRESHOLD
+        value: "0.25"
+      - key: RERANKER_ENABLED
+        value: "true"
+      - key: RERANKER_MODEL
+        value: cross-encoder/ms-marco-MiniLM-L-6-v2
+      - key: CHROMA_PERSIST_DIR
+        value: ./chroma_store
+      - key: CHROMA_COLLECTION_NAME
+        value: rag_knowledge_base
+      - key: HOST
+        value: 0.0.0.0
+      - key: WORKERS
+        value: "1"
+      - key: RELOAD
+        value: "false"
+      - key: LOG_LEVEL
+        value: INFO
+      - key: DEBUG
+        value: "false"
+      - key: MAX_RECORDS
+        value: "5000"
