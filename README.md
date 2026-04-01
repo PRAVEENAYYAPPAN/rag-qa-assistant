@@ -406,4 +406,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 ## 👤 Author
 
 **Praveen Ayyappan**  
-[GitHub](https://github.com/PRAVEENAYYAPPAN) · [LinkedIn](https://linkedin.com/in/PRAVEENAYYAPPAN)
+[GitHub](https://github.com/PRAVEENAYYAPPAN) · [LinkedIn](https://www.linkedin.com/in/praveen-ayyappan-a7451a218/)
